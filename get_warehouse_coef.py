@@ -31,10 +31,10 @@ STORAGE_OPTIONS = {
 }
 
 # API Options
-API_URL = os.environ.get('WB_API_KEY')
+WB_API_KEY = os.environ.get('WB_API_KEY')
 API_URL = 'https://supplies-api.wildberries.ru/api/v1/acceptance/coefficients'
 headers = {
-        'Authorization': API_KEY
+        'Authorization': WB_API_KEY
     }
 
 # Variables
