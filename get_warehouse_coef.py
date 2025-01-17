@@ -4,7 +4,10 @@ import sys
 import os
 import pytz  # Для работы с часовыми поясами
 import pandas as pd
+import urllib3
 from datetime import datetime
+
+urllib3.disable_warnings()
 
 '''
     API DOC: https://openapi.wildberries.ru/supplies/api/en/#tag/Information-for-forming-supplies
